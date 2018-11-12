@@ -5,9 +5,18 @@
   "author": "Prokop Simek <prokop.simek@applifting.cz>",
   "license": "MIT",
   "dependencies": {
+    "interval-promise": "^1.3.0",
+    "pg": "^7.6.1",
     "typescript": "^3.1.6"
   },
+  "devDependencies": {
+    "@types/node": "^10.12.5",
+    "@types/pg": "^7.4.11",
+    "ts-node": "^7.0.1"
+  },
   "scripts": {
-    "build": "rm -rf build && tsc"
+    "build": "rm -rf build && tsc",
+    "start": "node src/index.js",
+    "start:dev": "ts-node src/index.ts"
   }
 }
