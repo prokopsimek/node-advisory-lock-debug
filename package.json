@@ -1,0 +1,13 @@
+{
+  "name": "node-advisory-lock",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "author": "Prokop Simek <prokop.simek@applifting.cz>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "build": "rm -rf build && tsc"
+  }
+}
